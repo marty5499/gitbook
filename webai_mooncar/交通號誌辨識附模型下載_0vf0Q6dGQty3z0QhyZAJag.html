@@ -1,0 +1,446 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>交通號誌辨識 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="顏色偵測_7iYXASAWSnKncsVJBNpt1g.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="MoonCar 介紹_b5-SUY1NSlGWBqJVquAQcw.html">
+            
+                <a href="MoonCar 介紹_b5-SUY1NSlGWBqJVquAQcw.html">
+            
+                    
+                    MoonCar 介紹
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="基本控制_HXKb5kE4RjmoWqZm5nwdlg.html">
+            
+                <a href="基本控制_HXKb5kE4RjmoWqZm5nwdlg.html">
+            
+                    
+                    基本控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="循跡自走_B8ddF5cFQ46toSIOjBWE8w.html">
+            
+                <a href="循跡自走_B8ddF5cFQ46toSIOjBWE8w.html">
+            
+                    
+                    循跡自走
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="感測器 & 控制器_kbxoZDLgRBetK6FPd5hWlg.html">
+            
+                <a href="感測器 & 控制器_kbxoZDLgRBetK6FPd5hWlg.html">
+            
+                    
+                    感測器 & 控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="魔幻 LED_ZjHf5vyvQvK__wMofBWTpQ.html">
+            
+                <a href="魔幻 LED_ZjHf5vyvQvK__wMofBWTpQ.html">
+            
+                    
+                    魔幻 LED
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="顏色偵測_7iYXASAWSnKncsVJBNpt1g.html">
+            
+                <a href="顏色偵測_7iYXASAWSnKncsVJBNpt1g.html">
+            
+                    
+                    顏色偵測
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="交通號誌辨識附模型下載_0vf0Q6dGQty3z0QhyZAJag.html">
+            
+                <a href="交通號誌辨識附模型下載_0vf0Q6dGQty3z0QhyZAJag.html">
+            
+                    
+                    交通號誌辨識
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >交通號誌辨識</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x8FA8;&#x8B58;--&#x9644;&#x6A21;&#x578B;&#x4E0B;&#x8F09;-">&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x8FA8;&#x8B58; ( &#x9644;&#x6A21;&#x578B;&#x4E0B;&#x8F09; )</h1>
+<p>&#x5728; Web:AI MoonCar &#x4E2D;&#xFF0C;&#x9644;&#x8D08;&#x4E86; 9 &#x5F35;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x5361;&#xFF08;&#x624B;&#x908A;&#x6C92;&#x6709;&#x5C0F;&#x5361;&#x53EF;&#x5230; <a href="https://pse.is/4ltbv2" target="_blank">&#x9019;&#x88E1;</a> &#x4E0B;&#x8F09;&#x5217;&#x5370;&#xFF09;&#xFF0C;&#x80FD;&#x5920;&#x4F7F;&#x7528; Web:AI &#x7684;&#x7269;&#x4EF6;&#x8FFD;&#x8E64;&#x529F;&#x80FD;&#xFF0C;&#x8B93;&#x5C0F;&#x8ECA;&#x53EF;&#x4EE5;&#x81EA;&#x52D5;&#x5075;&#x6E2C;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#xFF0C;&#x4E26;&#x505A;&#x51FA;&#x5C0D;&#x61C9;&#x7684;&#x884C;&#x52D5;&#x3002;</p>
+<p>&#x770B;&#x5230;&#x300C;&#x6162;&#x300D;&#x865F;&#x8A8C;&#x6703;&#x964D;&#x4F4E;&#x901F;&#x5EA6;&#xFF0C;&#x770B;&#x5230;&#x300C;&#x5587;&#x53ED;&#x300D;&#x865F;&#x8A8C;&#x6703;&#x900F;&#x904E;&#x5587;&#x53ED;&#x767C;&#x51FA;&#x97F3;&#x6A94;&#xFF0C;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#x6709;&#x66F4;&#x591A;&#x66F4;&#x591A;&#x81EA;&#x99D5;&#x8ECA;&#x7684;&#x61C9;&#x7528;&#x60C5;&#x5883;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x900F;&#x904E; Web:AI MoonCar &#x53CA;&#x7A0B;&#x5F0F;&#x7A4D;&#x6728;&#x505A;&#x51FA;&#x4F86;&#x3002;</p>
+<p><img src="https://md.webduino.io/uploads/upload_869483906f59ce896836c4676d9c2ec2.png" alt="" width=""></p>
+<p><br>
+<br>
+<br></p>
+<h2 id="&#x4E00;&#x3001;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;">&#x4E00;&#x3001;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;</h2>
+<p>&#x5728;&#x505A;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x8FA8;&#x8B58;&#x524D;&#xFF0C;&#x9700;&#x8981;&#x5148;&#x5C07;&#x300C;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#x300D;&#x4E0B;&#x8F09;&#x5165;&#x677F;&#x5B50;&#x4E2D;&#xFF0C;&#x53EF;&#x4EE5;&#x900F;&#x904E;&#x300C; A. USB &#x532F;&#x5165;&#x6A21;&#x578B;&#x300D;&#x6216;&#x662F;&#x900F;&#x904E;&#x300C; B. &#x5F71;&#x50CF;&#x8A13;&#x7DF4;&#x5E73;&#x53F0;&#x300D;&#x3002;</p>
+<blockquote>
+<p>&#x9078;&#x64C7; A &#x6216; B &#x5176;&#x4E2D;&#x4E00;&#x7A2E;&#x65B9;&#x5F0F;&#x532F;&#x5165;&#x6A21;&#x578B;&#x3002; </p>
+</blockquote>
+<h3 id="a-usb-&#x532F;&#x5165;&#x6A21;&#x578B;">A. USB &#x532F;&#x5165;&#x6A21;&#x578B;</h3>
+<ol>
+<li><p>&#x4E0B;&#x8F09;<a href="https://drive.google.com/uc?export=download&amp;id=1ysH_sj4gG5UA9jq6V7ge9NMaPgdASSGf" target="_blank">&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;</a>&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_788902840cbcbbe49223354e8ca774e1.png" alt="" width=""></p>
+</li>
+<li><p>&#x9EDE;&#x64CA;&#x300C;&#x66F4;&#x591A;&#x300D;&#x4E2D;&#x7684;&#x300C;&#x532F;&#x5165;&#x6A21;&#x578B;&#x300D;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_07d1a246adb87d1e684c519ec7b4798f.png" alt="" width=""></p>
+</li>
+<li><p>&#x5C07; Web:AI &#x900F;&#x904E; USB &#x9023;&#x4E0A;&#x7A4D;&#x6728;&#x5E73;&#x53F0;&#xFF0C;&#x9078;&#x64C7;&#x525B;&#x525B;&#x4E0B;&#x8F09;&#x7684;&#x300C;model.kmodel&#x300D;&#x3002;</p>
+</li>
+<li><p>&#x7B49;&#x5F85;&#x532F;&#x5165;&#x6A21;&#x578B;&#x5B8C;&#x6210;&#x5C31;&#x53EF;&#x4EE5;&#x958B;&#x59CB;&#x4F7F;&#x7528;&#x300C;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x7A4D;&#x6728;&#x300D;&#xFF01;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_13bdd68b5efdefc51d9e2bd1582bb2b1.png" alt="" width=""></p>
+</li>
+</ol>
+<h3 id="b-&#x5F71;&#x50CF;&#x8A13;&#x7DF4;&#x5E73;&#x53F0;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;">B. &#x5F71;&#x50CF;&#x8A13;&#x7DF4;&#x5E73;&#x53F0;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;</h3>
+<ol>
+<li>&#x524D;&#x5F80; <a href="Webduino%20&#x5F71;&#x50CF;&#x8A13;&#x7DF4;&#x5E73;&#x53F0;_.md">Webduino &#x5F71;&#x50CF;&#x8A13;&#x7DF4;&#x5E73;&#x53F0;</a>&#x3002;</li>
+<li><p>&#x9EDE;&#x64CA;&#x300C;&#x6A21;&#x578B;&#x300D;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_af14751e7941896c3849ee42cc3cec44.png" alt="" width=""></p>
+</li>
+<li><p>&#x9EDE;&#x64CA;&#x300C;&#x65B0;&#x589E;&#x300D;&#xFF0C;&#x51FA;&#x73FE;&#x300C;&#x65B0;&#x589E;&#x6A21;&#x578B;&#x300D;&#x756B;&#x9762;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_1de06395cb22454df52b67e0c0b2439c.png" alt="" width=""></p>
+</li>
+<li><p>&#x8A2D;&#x5B9A;&#x6A21;&#x578B;&#xFF1A;</p>
+<ul>
+<li>&#x8F38;&#x5165;&#x300C;&#x6A21;&#x578B;&#x540D;&#x7A31;&#x300D;</li>
+<li>&#x9078;&#x64C7;&#x7A2E;&#x985E;&#x70BA;&#x300C;&#x7269;&#x4EF6;&#x8FFD;&#x8E64;&#x300D;</li>
+<li>&#x9EDE;&#x64CA;&#x300C;&#x8907;&#x88FD;&#x516C;&#x958B;&#x6A21;&#x578B;&#x300D;</li>
+</ul>
+</li>
+<li><p>&#x641C;&#x5C0B;&#x300C;TrafficSigns&#x300D;&#x6A21;&#x578B;&#xFF0C;&#x52FE;&#x9078;&#x5F8C;&#x9EDE;&#x64CA;&#x300C;&#x5EFA;&#x7ACB;&#x6A21;&#x578B;&#x300D;&#x3002;</p>
+<blockquote>
+<p>&#x5927;&#x5C0F;&#x5BEB;&#x90FD;&#x53EF;&#x4EE5;&#x641C;&#x5C0B;&#x3002;</p>
+</blockquote>
+<p> <img src="https://md.webduino.io/uploads/upload_579722248a398d2e0c8461e375916e80.png" alt="" width=""></p>
+</li>
+<li><p>&#x7B49;&#x5F85;&#x8A13;&#x7DF4;&#x5B8C;&#x6210;&#x5F8C;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6A21;&#x578B;&#x5217;&#x8868;&#x4E2D;&#x770B;&#x5230;&#x8A13;&#x7DF4;&#x597D;&#x7684;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_d93571a04f6d2f296e86678eaefcef7c.png" alt="" width=""></p>
+</li>
+<li><p>&#x9EDE;&#x64CA;&#x300C;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#x300D;&#xFF0C;&#x9078;&#x64C7;&#x300C;&#x4E0B;&#x8F09;&#x6A21;&#x578B;&#x300D;&#x5F8C;&#x8F38;&#x5165; Web:AI &#x7684; Device ID&#xFF0C;&#x4E26;&#x958B;&#x59CB;&#x4E0B;&#x8F09;&#x3002;</p>
+</li>
+<li><p>&#x6A21;&#x578B;&#x4E0B;&#x8F09;&#x5B8C;&#x6210;&#x5C31;&#x53EF;&#x4EE5;&#x958B;&#x59CB;&#x4F7F;&#x7528;&#x300C;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x7A4D;&#x6728;&#x300D;&#xFF01;</p>
+</li>
+</ol>
+<p><br>
+<br>
+<br></p>
+<h2 id="&#x4E8C;&#x3001;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x7A4D;&#x6728;">&#x4E8C;&#x3001;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x7A4D;&#x6728;</h2>
+<h3 id="&#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;"><img src="https://md.webduino.io/uploads/upload_6d015784134ff6c124bc40516ffdca9a.png" alt="" width=""> &#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;</h3>
+<p>&#x4F7F;&#x7528;&#x300C;&#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x300D;&#x7A4D;&#x6728;&#x6703;&#x81EA;&#x52D5;&#x958B;&#x555F;&#x93E1;&#x982D;&#x4E26;&#x8B80;&#x53D6;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#xFF0C;&#x7576;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x6642;&#x6703;&#x5C07;&#x87A2;&#x5E55;&#x4E0A;&#x7684;&#x865F;&#x8A8C;&#x6846;&#x8D77;&#x4F86;&#x3002;</p>
+<p><img src="https://md.webduino.io/uploads/upload_15b37e6bdc0516de69b910636ebadae3.png" alt="" width=""></p>
+<p>&#x4F7F;&#x7528;&#x6642;&#x6703;<strong>&#x57F7;&#x884C;&#x8FA8;&#x8B58; 1 &#x6B21;</strong>&#xFF0C;&#x53EF;&#x4EE5;&#x642D;&#x914D;&#x300C;&#x91CD;&#x8907;&#x300D;&#x7A4D;&#x6728;&#x91CD;&#x8907;&#x8FA8;&#x8B58;&#x3002;</p>
+<p><img src="https://md.webduino.io/uploads/upload_2c0f02a97a7ccdf1d1d00fb16aa62e1f.png" alt="" width=""></p>
+<h3 id="&#x5982;&#x679C;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x57F7;&#x884C;"><img src="https://md.webduino.io/uploads/upload_6d015784134ff6c124bc40516ffdca9a.png" alt="" width=""> &#x5982;&#x679C;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x57F7;&#x884C;</h3>
+<p>&#x300C;&#x5982;&#x679C;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x57F7;&#x884C;&#x300D;&#x7A4D;&#x6728;&#x7528;&#x6CD5;&#x985E;&#x4F3C;&#x300C;&#x5982;&#x679C;&#x57F7;&#x884C;&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x7576;&#x8FA8;&#x8B58;&#x5230;&#x6307;&#x5B9A;&#x7684;&#x865F;&#x8A8C;&#x6642;&#xFF0C;&#x6703;&#x505A;&#x51FA;&#x5F8C;&#x7E8C;&#x7684;&#x7A0B;&#x5F0F;&#x3002;</p>
+<p><img src="https://md.webduino.io/uploads/upload_10383518800a04e354e52a206c84d38c.png" alt="" width=""></p>
+<h3 id="&#x865F;&#x8A8C;&#x7684;&#x8CC7;&#x8A0A;"><img src="https://md.webduino.io/uploads/upload_6d015784134ff6c124bc40516ffdca9a.png" alt="" width=""> &#x865F;&#x8A8C;&#x7684;&#x8CC7;&#x8A0A;</h3>
+<p>&#x300C;&#x865F;&#x8A8C;&#x7684;&#x8CC7;&#x8A0A;&#x300D;&#x7A4D;&#x6728;&#x80FD;&#x5920;&#x53D6;&#x5F97;&#x5075;&#x6E2C;&#x5230;&#x865F;&#x8A8C;&#x7684;&#x8CC7;&#x8A0A;&#xFF0C;&#x6709;&#xFF1A;</p>
+<ul>
+<li>x &#x5EA7;&#x6A19;</li>
+<li>y &#x5EA7;&#x6A19;</li>
+<li>&#x5BEC;</li>
+<li>&#x9AD8;</li>
+<li>&#x4FE1;&#x5FC3;&#x5EA6;</li>
+</ul>
+<p><img src="https://md.webduino.io/uploads/upload_d7f77d18b40fedcba03bede2de099df4.png" alt="" width=""></p>
+<p>&#x642D;&#x914D;&#x300C;&#x908F;&#x8F2F;&#x300D;&#x7A4D;&#x6728;&#x505A;&#x4F7F;&#x7528;&#x3002;</p>
+<p><img src="https://md.webduino.io/uploads/upload_451debf91232a0b0711ff3c65e9477b8.png" alt="" width=""></p>
+<p><br>
+<br>
+<br></p>
+<h2 id="&#x4E09;&#x3001;&#x7BC4;&#x4F8B;&#xFF1A;&#x6309;&#x5587;&#x53ED;">&#x4E09;&#x3001;&#x7BC4;&#x4F8B;&#xFF1A;&#x6309;&#x5587;&#x53ED;</h2>
+<ol>
+<li>&#x5148;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#x3002;</li>
+<li><p>&#x4F7F;&#x7528;&#x300C;&#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x300D;&#x7A4D;&#x6728;&#x52A0;&#x4E0A;&#x300C;&#x7121;&#x9650;&#x91CD;&#x8907;&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x8B93; Web:AI &#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_c9cdb2f7da0d5889e8658e4a4feacd10.png" alt="" width=""></p>
+</li>
+<li><p>&#x52A0;&#x5165;&#x300C;&#x5982;&#x679C;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x57F7;&#x884C;&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x9078;&#x64C7;&#x300C;&#x6309;&#x5587;&#x53ED;&#x300D;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_159af20b36229dfd0fdb2ed5120cc900.png" alt="" width=""></p>
+</li>
+<li><p>&#x52A0;&#x5165;&#x300C;&#x8702;&#x9CF4;&#x5668;&#x300D;&#x7A4D;&#x6728;&#x3002;
+&#x57F7;&#x884C;&#x5F8C;&#xFF0C;&#x7576;&#x8FA8;&#x8B58;&#x5230;&#x300C;&#x6309;&#x5587;&#x53ED;&#x300D;&#x865F;&#x8A8C;&#x6642;&#xFF0C;MoonCar &#x6703;&#x767C;&#x51FA;&#x8072;&#x97F3;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_922de012ce7032843e9946911956dccf.png" alt="" width=""></p>
+</li>
+<li><p>&#x5982;&#x679C;&#x8981;&#x8B93;&#x8FA8;&#x8B58;&#x66F4;&#x6E96;&#x78BA;&#xFF0C;&#x53EF;&#x4EE5;&#x52A0;&#x5165;&#x300C;&#x865F;&#x8A8C;&#x7684;&#x8CC7;&#x8A0A;&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x6578;&#x503C;&#x53EF;&#x4EE5;&#x6839;&#x64DA;&#x73FE;&#x5834;&#x72C0;&#x6CC1;&#x8ABF;&#x6574;&#x3002;
+&#x57F7;&#x884C;&#x5F8C;&#xFF0C;&#x7576;&#x300C;&#x6309;&#x5587;&#x53ED;&#x300D;&#x865F;&#x8A8C;&#x5BEC;&#x5EA6; &gt; 30 &#x6642;&#xFF0C;MoonCar &#x6703;&#x767C;&#x51FA;&#x8072;&#x97F3;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_8352e7b26543f90ab1c9165e36d71963.png" alt="" width=""></p>
+</li>
+</ol>
+<p><br>
+<br>
+<br></p>
+<h2 id="&#x56DB;&#x3001;&#x7BC4;&#x4F8B;&#xFF1A;&#x5FAA;&#x8DE1;--&#x8FA8;&#x8B58;&#x958B;&#x982D;&#x71C8;">&#x56DB;&#x3001;&#x7BC4;&#x4F8B;&#xFF1A;&#x5FAA;&#x8DE1; + &#x8FA8;&#x8B58;&#x958B;&#x982D;&#x71C8;</h2>
+<ol>
+<li>&#x5148;&#x4E0B;&#x8F09;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x6A21;&#x578B;&#x3002;</li>
+<li>&#x8CBC;&#x4E0A;&#x9ED1;&#x8272;&#x81A0;&#x5E36;&#x4F5C;&#x70BA;&#x8ECC;&#x9053;&#x3002;</li>
+<li><p>&#x653E;&#x5165;&#x300C;&#x5FAA;&#x8DE1;&#x300D;&#x7A4D;&#x6728;&#x53CA;&#x300C;&#x958B;&#x59CB;&#x8FA8;&#x8B58;&#x4EA4;&#x901A;&#x865F;&#x8A8C;&#x300D;&#x7A4D;&#x6728;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_8fa04ca0a26efca80aea84c16eba09c6.png" alt="" width=""></p>
+</li>
+<li><p>&#x653E;&#x5165;&#x300C;&#x5982;&#x679C;&#x8FA8;&#x8B58;&#x5230;&#x865F;&#x8A8C;&#x57F7;&#x884C;&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x9078;&#x64C7;&#x300C;&#x958B;&#x4EAE;&#x982D;&#x71C8;&#x300D;&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_97581ff72e9b141f2dcd333b61a5a8bb.png" alt="" width=""></p>
+</li>
+<li><p>&#x653E;&#x5165; 4 &#x584A;&#x300C;&#x9B54;&#x5E7B; LED&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x5206;&#x5225;&#x8A2D;&#x5B9A;&#xFF1A;</p>
+<ul>
+<li>&#x7B2C;&#xFF1A;1&#x3001;2&#x3001;3&#x3001;4 &#x9846;</li>
+<li><p>&#x984F;&#x8272;&#xFF1A;&#x767D;&#x8272;</p>
+<p><img src="https://md.webduino.io/uploads/upload_f242f3a06c7abef27b749c8f702bb395.png" alt="" width=""></p>
+</li>
+</ul>
+</li>
+<li><p>&#x52A0;&#x5165;&#x300C;&#x95DC;&#x9589;&#x9B54;&#x5E7B; LED&#x300D;&#x7A4D;&#x6728;&#xFF0C;&#x8B93;&#x6C92;&#x8FA8;&#x8B58;&#x7684;&#x300C;&#x958B;&#x4EAE;&#x982D;&#x71C8;&#x300D;&#x6642;&#xFF0C;&#x6703;&#x95DC;&#x9589;&#x9B54;&#x5E7B; LED&#x3002;</p>
+<p> <img src="https://md.webduino.io/uploads/upload_82acadb79056552d4a6abf34a6e7a71a.png" alt="" width=""></p>
+</li>
+<li><p>&#x6309;&#x4E0B;&#x57F7;&#x884C;&#xFF0C;MoonCar &#x6703;&#x5728;&#x8ECC;&#x9053;&#x4E0A;&#x884C;&#x99DB;&#xFF0C;&#x4E26;&#x5728;&#x5075;&#x6E2C;&#x5230;&#x300C;&#x958B;&#x4EAE;&#x982D;&#x71C8;&#x300D;</p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="顏色偵測_7iYXASAWSnKncsVJBNpt1g.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 顏色偵測">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"交通號誌辨識","level":"1.8","depth":1,"previous":{"title":"顏色偵測","level":"1.7","depth":1,"path":"顏色偵測_7iYXASAWSnKncsVJBNpt1g.md","ref":"./顏色偵測_7iYXASAWSnKncsVJBNpt1g.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"交通號誌辨識附模型下載_0vf0Q6dGQty3z0QhyZAJag.md","mtime":"2023-03-19T12:30:02.653Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-19T12:30:21.018Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
